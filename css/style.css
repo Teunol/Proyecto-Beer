@@ -1,0 +1,50 @@
+body{
+	background-color: #f4f4f4;
+	color: #555;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 1.6em;
+	margin: 0;
+}
+
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.container1{
+	float: left;
+}
+
+.container2{
+	float: right;
+	padding-top: 25px;
+}
+
+#main-header{
+	background-color: #2D2D2D;
+	color: #EAC713;
+}
+
+#navbar a{
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+	padding-right: 15px;
+}
+
+#showcase{
+	background-image:url('../images/showcase.jpg'); 
+	background-size:cover;
+	background-position:top;
+	background-repeat: no-repeat;
+	min-height: 600px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+#logo{
+	background-image: url('../images/log.jpg');
+	background-size: cover;
+}
